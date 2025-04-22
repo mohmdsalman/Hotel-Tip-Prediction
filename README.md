@@ -1,30 +1,28 @@
-🧾 Tip Prediction App
-This is a simple machine learning-powered web app built with Streamlit that predicts the tip amount a customer is likely to leave at a restaurant based on the total bill, time of day, and party size.
+💡 Smart Tip Predictor
+“How much tip should I leave?” — Let AI figure it out for you.
+A sleek, interactive ML-powered web app that predicts restaurant tips based on the bill, time, and party size — in real-time using Streamlit.
 
-🚀 Features
-Predicts restaurant tip based on:
+🛠️ Built With
+🧠 Scikit-learn – Machine Learning Model
 
-Total Bill
+🖥️ Streamlit – Frontend Web Interface
 
-Time of the meal (Lunch or Dinner)
+📊 Pandas + NumPy – Data wrangling
 
-Size of the dining party
+🧺 Pickle – Model Serialization
 
-Interactive and user-friendly web interface using Streamlit
+🎯 Key Features
+✅ Real-time prediction of tip amount
+✅ Clean, interactive UI
+✅ Simple inputs: Bill, Time (Lunch/Dinner), Group Size
+✅ Efficient pre-processing with label encoding
+✅ Pre-trained ML model baked right in
 
-Trained ML model using scikit-learn
+⚙️ How It Works
+1. 💰 Input the total bill
 
-Encoded time feature for better prediction
+2. ⏰ Select the time (Lunch or Dinner)
 
-🧠 Tech Stack
-Python
+3. 👥 Mention group size
 
-Streamlit
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Pickle (for model serialization)
+4. 📲 Click SUBMIT and boom — you get the predicted tip!
